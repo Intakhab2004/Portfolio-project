@@ -13,7 +13,7 @@ export default function About(){
             </h1>
             <div className="max-w-6xl w-full bg-white/80 dark:bg-[#111111]/90 backdrop-blur-xl rounded-3xl shadow-2xl p-6 md:p-12 
                     flex flex-col lg:flex-row items-center gap-8 md:gap-12 border border-gray-200 hover:shadow-xl hover:border-blue-200
-                    dark:hover:border-purple-500 dark:border-white/70 transition-all duration-700 will-change-transform"
+                    dark:hover:border-purple-400 dark:border-white/70 transition-all duration-700 will-change-transform"
             >
                 <div className="relative">
                     <Image
