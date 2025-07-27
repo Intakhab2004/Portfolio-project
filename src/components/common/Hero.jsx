@@ -12,6 +12,11 @@ import img from "../../assets/img2.jpg"
 export default function Hero(){
     return (
        <section className="relative flex justify-center items-center w-full overflow-hidden px-4 py-16 min-h-screen mt-10 lg:mt-0 md:mt-10 bg-white dark:bg-[#1e1e1e] transition-colors duration-500">
+            {/* Top blur effect  */}
+            <div className="absolute top-0 left-0 w-full h-10 bg-gradient-to-b from-pink-400 to-blue-600 dark:from-blue-800 dark:to-green-400 blur-xl pointer-events-none"></div>
+            <div className="absolute bottom-0 left-0 w-full h-3 bg-gradient-to-b from-[#7e0404] to-[#210373] dark:from-[#8f00c3] dark:to-[#b49393] blur-3xl pointer-events-none"></div>
+
+
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-full max-w-7xl mx-auto gap-12">
                 <div>
                     <h1 className="text-4xl text-center sm:text-5xl md:text-6xl font-extrabold mb-4 leading-tight text-gray-800 dark:text-gray-100">
@@ -71,7 +76,7 @@ export default function Hero(){
             </div>
             
             <marquee 
-                className="absolute bottom-0 w-full bg-white/70 overflow-hidden py-4 backdrop:blur-md dark:bg-[#1e1e1e]/70"
+                className="absolute bottom-0 w-full bg-transparent overflow-hidden py-4 backdrop:blur-md"
             >
                 <pre className="text-2xl font-bold text-gray-700 dark:text-gray-300">
                     HTML    CSS    JavaScript    TypeScript    React    Next.js    TailwindCSS    Node.js    Express    MongoDB    GitHub    Vercel    Render    Postman    C++    DSA
