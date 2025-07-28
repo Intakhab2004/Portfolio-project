@@ -6,6 +6,7 @@ import Hero from "../components/common/Hero";
 import { useState, useEffect } from "react";
 import Skills from "@/components/common/Skills";
 import Projects from "@/components/common/Projects";
+import Contact from "@/components/common/Contact";
 
 
 export default function Home(){
@@ -21,6 +22,7 @@ export default function Home(){
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
