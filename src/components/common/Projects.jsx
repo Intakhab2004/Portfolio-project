@@ -27,7 +27,7 @@ const projects = [
         id: 3,
         title: "My Portfolio",
         description: "A responsive Portfolio website developed using Next.js, TailwindCSS.",
-        image: "/studyNotion.png",
+        image: "/portfolio.png",
         github: "https://github.com/Intakhab2004/StudyNotion",
         live: "https://study-notion-nu-flax.vercel.app/",
         tech: ["Next.js", "TailwindCSS", "Shadcn UI", "React-icons"]
@@ -47,7 +47,7 @@ export default function Projects(){
                 <div className="h-1 w-28 rounded-full bg-gradient-to-r from-blue-600 via-teal-600 to-pink-600"></div>
             </div>
 
-            <div className="max-w-6xl mx-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="max-w-7xl mx-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
                     projects.map((project) => (
                         <div 

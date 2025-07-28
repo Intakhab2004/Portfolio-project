@@ -1,9 +1,9 @@
 "use client"
 
-import { Menu } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { useState, useEffect } from "react";
+import { DropdownButton } from "./DropdownMenu";
 
 
 
@@ -50,7 +50,7 @@ export const Navbar = () => {
                 </div>
                 <div className="flex items-center space-x-3 md:hidden">
                     <ThemeToggle/>
-                    <Menu/>
+                    <DropdownButton/>
                 </div>
             </div>
         </nav>

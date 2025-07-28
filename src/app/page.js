@@ -1,12 +1,12 @@
 "use client"
 
 
-import About from "@/components/common/About";
+import About from "../components/common/About";
 import Hero from "../components/common/Hero";
 import { useState, useEffect } from "react";
-import Skills from "@/components/common/Skills";
-import Projects from "@/components/common/Projects";
-import Contact from "@/components/common/Contact";
+import Skills from "../components/common/Skills";
+import Projects from "../components/common/Projects";
+import Contact from "../components/common/Contact";
 
 
 export default function Home(){

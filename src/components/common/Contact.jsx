@@ -46,7 +46,7 @@ export default function Contact(){
             >
                 Let's Connect!
             </h1>
-            <p className="w-1/2 text-xl mb-16 text-gray-600 dark:text-gray-300 font-semibold">
+            <p className="w-full md:w-1/2 text-xl mb-16 text-gray-600 dark:text-gray-300 font-semibold">
                 Whether you have a project in mind or just want to collaborate on something exciting? I'm all ears and just one message away.
             </p>
 

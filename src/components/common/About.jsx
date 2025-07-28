@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import img from "@/assets/img2.jpg"
+import img from "../../assets/img2.jpg"
 
 
 
